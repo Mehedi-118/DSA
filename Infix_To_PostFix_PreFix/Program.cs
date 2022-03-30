@@ -132,7 +132,7 @@ namespace Infix_To_PostFix_PreFix
             string result = Evaluate_PostFix_Expression(expression);
             string result1 = Evaluate_PreFix_Expression(expression);
             Console.WriteLine("Postfix Expression of Given Infix Expression :{0}",result);
-            Console.WriteLine("Pretfix Expression of Given Infix Expression :{0}",result1);
+            Console.WriteLine("Prefix Expression of Given Infix Expression :{0}",result1);
             Console.WriteLine(result1);
             Console.ReadLine();
         }
